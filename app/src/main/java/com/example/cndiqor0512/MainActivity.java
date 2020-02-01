@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"토스트",Toast.LENGTH_LONG).show();
     }
     public void OnClick4(View view){
-        Intent intent3 = new Intent(getApplicationContext(),SubActivity.class);
-        startActivity(intent3);
+        Intent intent4 = new Intent(getApplicationContext(),SubActivity.class);
+        startActivity(intent4);
     }
     public void OnClick5(View view){
     moveTaskToBack(true);
@@ -37,5 +37,9 @@ public class MainActivity extends AppCompatActivity {
     public void OnClick6(View view){
         Intent intent4 = new Intent(getApplicationContext(),Btn_Color.class);
         startActivity(intent4);
+    }
+    public void Onclick16(View view){
+        Intent intent16 = new Intent(getApplicationContext(),KakaoTalkLogin.class);
+        startActivity(intent16);
     }
 }

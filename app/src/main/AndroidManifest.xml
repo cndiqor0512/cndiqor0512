@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Btn_Color"></activity>
+        <activity android:name=".KakaoTalkLogin"></activity>
+        <activity android:name=".Btn_Color" />
         <activity android:name=".SubActivity" />
         <activity android:name=".Calculator" />
         <activity android:name=".TicTacToe" />
